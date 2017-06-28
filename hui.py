@@ -8,10 +8,11 @@ app = Flask(__name__)
 
 hui_head = '''
     <html>
-    <link rel="icon" href="data:,">
 
     <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
     <title>real-deep-mining</title>
     </head>
 
